@@ -198,7 +198,26 @@
                     "match_condition":"tlx.3lift.com",
                     "match_relationship":"does_not_match",
                     "match_type":"domain_name"
+                },
+				{                                                                                                                                                                                                                           					"boolean_operator":"and",                                                                                                                                                                                               
+                    "enabled":true,                                                                                                                
+                    "match_condition":"firestore.googleapis.com",                                                                                                                                                                       
+                    "match_relationship":"does_not_match",                                                                                                                                                                                  
+                    "match_type":"domain_name"                                                                                                                                                                                              
+                },
+                {                                                                                                                                                                                                                                               "boolean_operator":"and",                                                                                                                                                                                               
+                    "enabled":true,                                                                                                                                                                                                         
+                    "match_condition":"browser-http-intake.logs.datadoghq.com",                                                                                                                                                      
+                    "match_relationship":"does_not_match",                                                                                                                                                                                  
+                    "match_type":"domain_name"                                                                                                                                                                                              
+                },
+                {                                                                                                                                                                                                                                               "boolean_operator":"and",                                                                                                                                                                                               
+                    "enabled":true,                                                                                                                                                                                                         
+                    "match_condition":"firestore.googleapis.com",                                                                                                                                                             
+                    "match_relationship":"does_not_match",                                                                                                                                                                                  
+                    "match_type":"domain_name"                                                                                                                                                                                              
                 }
-            ]
+               ]
         }
     }
+}
